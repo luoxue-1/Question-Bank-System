@@ -1,0 +1,784 @@
+{
+  "banks": [
+    {
+      "id": 1,
+      "name": "计算机网络",
+      "questions": [
+        {
+          "topic": "基础",
+          "content": "以下哪个协议可以用于检测网络路径的连通性并记录路由节点？\n    A .ping  B .tracert  C.telnet  D .ssh",
+          "answer": "B .tracert",
+          "id": 14
+        },
+        {
+          "topic": "0107周测",
+          "content": "交换机发送的配置BPDU中，哪一个桥ID不可能会出现? A. 8192 00-01-02-03-04-CC B. 0 00-01-02-03-04-CC C. 4096 00-01-02-03-04-CC D. 2048 00-01-02-03-04-CC",
+          "answer": "D",
+          "id": 117
+        },
+        {
+          "topic": "0116周测",
+          "content": "关于OSPF协议DR的说法正确的是？ A. DR的选举是抢占式的B. DR一定是网络中优先级最高的设备C. Router ID值越大越优先被选举为DRD. 一个接口优先级为0，那么该接口不可能成为DR",
+          "answer": "D",
+          "id": 91
+        },
+        {
+          "topic": "IP",
+          "content": "以下属于 TCP 协议特点的有\n    A面向连接 B可靠传输 C无连接 D拥塞控制",
+          "answer": "A面向连接 B可靠传输D拥塞控制",
+          "id": 3
+        },
+        {
+          "topic": "每日问答",
+          "content": "ARP协议作用？",
+          "answer": "已知目的IP，获取目的mac地址",
+          "id": 46
+        },
+        {
+          "topic": "每日问答",
+          "content": "网络地址算法？",
+          "answer": "ip与子网掩码做逻辑上“与”运算",
+          "id": 43
+        },
+        {
+          "topic": "基础",
+          "content": "华为设备中，Console 口是唯一的本地管理接口，只能通过串口线进行设备初始化配置\n    A正确  B错误",
+          "answer": "B错误",
+          "id": 6
+        },
+        {
+          "topic": "0107周测",
+          "content": "生成树协议中规定桥优先级是多少bit? A. 16 B. 4 C. 8 D. 2",
+          "answer": "B",
+          "id": 100
+        },
+        {
+          "topic": "每日问答",
+          "content": "vlan的作用？分类？",
+          "answer": "隔离广播域\n分类：\n    基于接口\n    基于ip子网\n    基于mac地址\n    基于策略\n    基于协议",
+          "id": 32
+        },
+        {
+          "topic": "0107周测",
+          "content": "下面关于生成树指定端口的描述正确的是 A. 根交换机上的端口一定是指定端口 B. 每台交换机只有一个指定端口 C. 根交换机上的端口一定不是指定端口 D. 指定端口可以向与其相连的网段转发配置BPDU报文",
+          "answer": "D",
+          "id": 96
+        },
+        {
+          "topic": "0107周测",
+          "content": "MSTP解决了很多RSTP和STP单个生成树的缺陷，关于MSTP的说明正确的是 A. 默认所有VLAN映射到MST INSTANCE 1 B. 每一个MST INSTANCE都有一个标识，MSTID是一字节的整数 C. 每个MST INSTANCE都使用单独的STP算法，计算单独的生成树 D. MSTP允许将一个或多个VLAN映射到一个多生成树实例上，MSTP为每个MST INSTANCE单独计算根交换机，单独设置端口状态",
+          "answer": "BCD",
+          "id": 108
+        },
+        {
+          "topic": "0116周测",
+          "content": "以下关于路由器的描述说法正确的是？ A. 路由器不能隔离广播域B. 路由器能够实现IP报文转发C. 路由器工作在网络层D. 路由器可以作为网关设备",
+          "answer": "BCD",
+          "id": 63
+        },
+        {
+          "topic": "每日问答",
+          "content": "子网划分公式？",
+          "answer": "2的N次方    N=所借主机位数      可划分的子网数量\n2的M次方-2  M=剩余的主机位数    每个子网可容纳的主机数量",
+          "id": 36
+        },
+        {
+          "topic": "每日问答",
+          "content": "IP地址和mac地址区别？",
+          "answer": "IP地址：\n    逻辑地址 32位  2进制\n    位于网络层，可路由\n    唯一性：广播域<网段内>\n    更改\n    寻址<跨广播域寻址>\n\nmac地址：\n    物理地址 48位  16进制\n    位于数据链路层  同广播域通信  交换机\n    唯一性：全球唯一\n    不可更改\n    寻址<同广播域内>",
+          "id": 47
+        },
+        {
+          "topic": "0107周测",
+          "content": "MUX VLAN 提供了一种通过VLAN进行网络资源控制的机制，以下概念中不属于MUX VLAN 的是： A. 从VLAN B. 互通型 VLAN C. 主VLAN D. GUEST VLAN",
+          "answer": "B",
+          "id": 107
+        },
+        {
+          "topic": "0116周测",
+          "content": "VRRP设备在备份组中的默认优先级为？ A. 100B. 200C. 150D. 0",
+          "answer": "A",
+          "id": 59
+        },
+        {
+          "topic": "0107周测",
+          "content": "在客户端通过DHCP申请IP地址，和DHCP服务器分配IP地址的过程中，以下哪些报文通常是单播方式？ A. DHCP REQUEST B. DHCP OFFER C. DHCP DISCOVER D. DHCP ACK",
+          "answer": "BD",
+          "id": 104
+        },
+        {
+          "topic": "每日问答",
+          "content": "子网掩码的作用？",
+          "answer": "区分IP地址的网络部分和主机部分",
+          "id": 37
+        },
+        {
+          "topic": "IP",
+          "content": "交换机的 Access 端口只能属于一个 VLAN，且该端口发送的帧不带 VLAN 标签\n    A正确 B错误",
+          "answer": "B错误",
+          "id": 2
+        },
+        {
+          "topic": "0107周测",
+          "content": "以下关于RSTP协议中边缘端口说法正确的是？ A. 边缘端口参与RSTP运算 B. 边缘端口丢弃收到配置BPDU报文 C. 交换机之间互联的端口需要设置为边缘端口 D. 边缘端口可以由Disable直接转到Forwarding状态",
+          "answer": "D",
+          "id": 97
+        },
+        {
+          "topic": "0107周测",
+          "content": "DHCP服务器使用哪种报文确认主机可以使用IP地址? ( ) A. DHCP DISCOVER B. DHCP ACK C. DHCP OFFER D. DHCP REQUSET",
+          "answer": "B",
+          "id": 114
+        },
+        {
+          "topic": "0116周测",
+          "content": "以下哪项是VRRP优先级手工设置的范围？ A. 1~127B. 0~127C. 1~254D. 0~254",
+          "answer": "C",
+          "id": 88
+        },
+        {
+          "topic": "每日问答",
+          "content": "csma/cd工作机制？",
+          "answer": "带冲突检测，载波监听，多路访问",
+          "id": 26
+        },
+        {
+          "topic": "每日问答",
+          "content": "Cisco平台通用五大模式",
+          "answer": "1.用户模式\n2.特权模式\n3.全局配置模式\n4.接口模式\n5.线路模式",
+          "id": 22
+        },
+        {
+          "topic": "0107周测",
+          "content": "STP中选举根端口时需要考虑以下哪些参数?() A. 端口到达根交换机的Cost B. 端口的MAC地址 C. 端口优先级 D. 端口槽位编号，如G0/0/1 E. 端口的双工模式",
+          "answer": "ACD",
+          "id": 109
+        },
+        {
+          "topic": "0116周测",
+          "content": "下列关于 VRRP的描述，错误的是？ A. 如果Backup路由器工作在非抢占方式下，则只要 Master路由器没有出现故障，Backup路由器即使随后被配置更高的优先级也不会成为 Master路由器B. VRRP根据优先级来确定虚拟路由器中每台路由器的地位C. 当两台优先级相同的路由器同时竞争 Master时，比较接口 IP地址大小，接口地址大者当选为MasterD. 如果已经存在 Master, Backup也会进行抢占",
+          "answer": "D",
+          "id": 78
+        },
+        {
+          "topic": "每日问答",
+          "content": "DHCP常见4种包？",
+          "answer": "DHCP Discover、DHCP Offer、DHCP Request、DHCP ACK",
+          "id": 50
+        },
+        {
+          "topic": "基础",
+          "content": "路由器在转发数据包时，会修改数据包的源 IP 地址和目的 IP 地址。\n    A正确  B错误",
+          "answer": "B错误",
+          "id": 9
+        },
+        {
+          "topic": "基础",
+          "content": "以下哪个命令可以查看华为交换机的 MAC 地址表？\n    A.display mac-address  B.display arp  C.display interface  D.display vlan",
+          "answer": "A.display mac-address",
+          "id": 13
+        },
+        {
+          "topic": "每日问答",
+          "content": "路由器和交换机的区别？",
+          "answer": "路由器分割广播域，识别IP地址\n交换机广播域内通信，识别mac",
+          "id": 23
+        },
+        {
+          "topic": "IP",
+          "content": "ARP 协议的作用是\nA将域名解析为 IP 地址  B将 IP 地址解析为 MAC 地址  C将 MAC 地址解析为 IP 地址  D将 IP 地址解析为域名",
+          "answer": "B将 IP 地址解析为 MAC 地址",
+          "id": 4
+        },
+        {
+          "topic": "0116周测",
+          "content": "关于OSPF协议区域划分说法错误的是？ A. 只有ABR才能作为ASBRB. 同一个OSPF区域中的路由器中的LSDB是完全一致的C. area0是骨干区域、其他区域都必须与此区域相连D. 划分OSPF区域可以缩小部分路由器的LSDB规模",
+          "answer": "A",
+          "id": 79
+        },
+        {
+          "topic": "每日问答",
+          "content": "IP地址分类？",
+          "answer": "A:1-126\nB:128-191\nC:192-223\nD:224-239\nE:240-254",
+          "id": 33
+        },
+        {
+          "topic": "每日问答",
+          "content": "如何区分IP地址的网络部分和主机部分",
+          "answer": "子网掩码为\"1\"对应网络部分\n子网掩码为\"0\"对应主机部分",
+          "id": 38
+        },
+        {
+          "topic": "0116周测",
+          "content": "224.0.0.6是ALL DRouters监听地址，224.0.0.5是ALL OSPF Routers监听地址。（判断题） A. 正确B. 错误",
+          "answer": "A",
+          "id": 92
+        },
+        {
+          "topic": "每日问答",
+          "content": "路由器和交换机的区别？",
+          "answer": "路由器：\n    层级：三层设备\n    地址：IP，mac地址\n    转发：RIB<路由表>，手工建立\n    速率：慢  bps\n    位置：广播域间<隔离广播域>\n    便宜\n    接口：少\n\n交换机：\n    层级：二层设备\n    地址：mac地址\n    转发：mac地址表\n    速率：快 pps\n    位置：广播域内\n    贵\n    接口：多",
+          "id": 48
+        },
+        {
+          "topic": "基础",
+          "content": "ICMP 协议的作用是在 IP 网络中传递控制消息，例如 ping 命令就是基于 ICMP 实现的。\n    A正确   B错误",
+          "answer": "A正确",
+          "id": 15
+        },
+        {
+          "topic": "0116周测",
+          "content": "关于OSPF骨干区域说法正确的是？ A. 所有区域都可以是骨干区域B. 骨干区域所有路由器都是ABRC. Area 0是骨干区域D. 当运行OSPF协议的路由器数量超过2台以上时必须部署骨干区域",
+          "answer": "C",
+          "id": 62
+        },
+        {
+          "topic": "基础",
+          "content": "华为交换机默认的管理 VLAN 是哪个？\n    A.VLAN 0  B.VLAN 1  C.VLAN 10  D.VLAN 100",
+          "answer": "B.VLAN 1",
+          "id": 8
+        },
+        {
+          "topic": "0116周测",
+          "content": "管理员在Router 上进行了如下配置，那么连接在该路由器的G1/0/0接口下的一台主机，能够通过DHCP获取到什么样的IP地址？（配置：ip pool pool 1 network 10.10.10.0 mask 255.255.255.0 gateway-list 10.10.10.1 quit；ip pool pool 2 network 10.20.20.0 mask 255.255.255.0 gateway-list 10.20.20.1 quit；Interface g1/0/0 ip address 10.10.10.1 24 dhcp select global） A. 该主机获取的IP地址属于10.20.20.0/24网络B. 该主机获取不到IP地址C. 该主机获取的IP地址可能属于10.10.10.0/24网络，也可能属于10.20.20.0/24网络D. 该主机获取的IP地址属于10.10.10.0/24",
+          "answer": "D",
+          "id": 64
+        },
+        {
+          "topic": "每日问答",
+          "content": "交换机的链路类型？作用？",
+          "answer": "access:\n    接入终端设备，只能加入单个vlan，只能传输untagged\n\ntrunk：\n    一条物理链路，承载多个vlan通信，不隶属于任何vlan，连接网络设备\n    更灵活，可以传输tag/untagged\n\nhybrid\nQ IN Q",
+          "id": 31
+        },
+        {
+          "topic": "每日问答",
+          "content": "路由条目分类？",
+          "answer": "直连路由\n接口配置IP地址\n接口UP状态\n非直连路由\n    静态路由\n        语法：\n        目的网段  目的网段子网掩码   下一跳\n\n    动态路由",
+          "id": 42
+        },
+        {
+          "topic": "每日问答",
+          "content": "OSI和TCP/IP区别？",
+          "answer": "OSI较为理想，不容易实现，分层更细\n TCP/IP现网环境，更容易实现，分层模糊\n OSI7层   TCP/IP标准型：4层  对等模型：5层<现网>",
+          "id": 25
+        },
+        {
+          "topic": "0116周测",
+          "content": "以下关于OSPF协议说法错误的是？ A. OSPF报文封装在IP报文内，可以采用单播或组播的形式发送B. OSPF支持对等价路由进行负载分担C. OSPF是一个基于链路状态的外部网关协议D. OSPF协议支持区域划分",
+          "answer": "C",
+          "id": 87
+        },
+        {
+          "topic": "每日问答",
+          "content": "dhcp续租时间？",
+          "answer": "50%\n87.5%  到达时，还没有续约则重新绑定IP",
+          "id": 51
+        },
+        {
+          "topic": "每日问答",
+          "content": "客户端手动获取和释放IP地址的命令？",
+          "answer": "ipconfig /renew\nipconfig /release",
+          "id": 52
+        },
+        {
+          "topic": "0116周测",
+          "content": "RouterA和RouterB属于一个VRRP组，RouteA优先级120，RoaterB优先级100。VRID的虚拟IP地址和RouterB的接口地址相同。则当网络运行状态良好时，此VRRP 组中的 Master设备是？ A. RouterAB. RouterB",
+          "answer": "B",
+          "id": 74
+        },
+        {
+          "topic": "每日问答",
+          "content": "路由表中参数？",
+          "answer": "目标网段\n子网掩码\n协议\n优先级\n下一跳\n出接口",
+          "id": 39
+        },
+        {
+          "topic": "0107周测",
+          "content": "DHCP服务器分配给客户端的动态IP地址。通常有一定的租借期限，那么关于租借期限的描述错误的是 A. 若“重绑定定时器”到期但客户端还没有收到服务器的响应则会一直发送DHCP REQUEST报文给之前分配过IP地址的DHCP服务器，直到总租期到期 B. 重绑定定时器为总租期的87.5% C. 在租借期限内，如果客户端收到DHCP NAK报文客户端就会立即停止使用此IP地址，并返回到初始化状态，重新申请新的IP地址 D. 租期更新定时器为总租期的50%，当\"租期更新定时器\"到期时，DHCP客户端必须进行IP地址的更新",
+          "answer": "AD",
+          "id": 93
+        },
+        {
+          "topic": "0107周测",
+          "content": "链路聚合是企业网络中的常用技术、下列描述中哪些是链路聚合技术的优点?() A. 增加带宽 B. 提高可靠性 C. 提高安全性 D. 实现负载分担",
+          "answer": "ABD",
+          "id": 111
+        },
+        {
+          "topic": "基础",
+          "content": "路由表中包含的关键信息有\n    A目的网络  B下一跳地址  C出接口  D路由优先级",
+          "answer": "A目的网络  B下一跳地址  C出接口  D路由优先级",
+          "id": 7
+        },
+        {
+          "topic": "0116周测",
+          "content": "下面关于OSPF邻居关系和邻接关系描述，正确的是？ A. OSPF路由器在交换Hello报文之前必须建立邻接关系B. 并非所有的邻居关系都可以成为邻接关系C. 邻居关系是从邻接关系中选出的、为了交换路由信息而形成的关系D. 邻接关系由OSPF的DD报文维护",
+          "answer": "B",
+          "id": 61
+        },
+        {
+          "topic": "0116周测",
+          "content": "使用命令“vlan batch 10 20”和“vlan batch 10 to 20”，分别能创建的VLAN 数量？ A. 11和2B. 11和11C. 2和11D. 2和2",
+          "answer": "C",
+          "id": 86
+        },
+        {
+          "topic": "0116周测",
+          "content": "在OSPF中，ABR不向Stub区域内泛洪5类LSA和4类LSA，向Stub区域通告一条默认LSA，指导数据包如何到达AS外部的目的地。（判断题） A. 正确B. 错误",
+          "answer": "A",
+          "id": 71
+        },
+        {
+          "topic": "0116周测",
+          "content": "使用FTP进行文件传输时，会建立多少个TCP连接？ A. 4B. 1C. 2D. 3",
+          "answer": "C",
+          "id": 58
+        },
+        {
+          "topic": "0116周测",
+          "content": "对OSPF引入路由的描述，可以通过配置过滤规则来过滤向邻居发布的路由信息。以下描述正确的是？ A. 路由引入的过滤不对LSA进行过滤，只针对LSA计算出来的路由是否添加本地路由表进行过滤B. 配置在任意路由器都有效C. 该过滤规则只在ASBR上配置才有效D. 该过滤规则中ABR上配置有效",
+          "answer": "C",
+          "id": 85
+        },
+        {
+          "topic": "基础",
+          "content": "VLAN 的划分方式有\n    A.基于端口划分  B.基于 MAC 地址划分  C.基于 IP 子网划分  D.基于协议划分",
+          "answer": "A.基于端口划分  B.基于 MAC 地址划分  C.基于 IP 子网划分  D.基于协议划分",
+          "id": 10
+        },
+        {
+          "topic": "0116周测",
+          "content": "OSPF协议在进行主从关系选举时依据以下哪个参数？ A. 启动协议的顺序B. 接口IPC. OSPF协议的进程号D. Router ID",
+          "answer": "D",
+          "id": 84
+        },
+        {
+          "topic": "0107周测",
+          "content": "STP端口在下列状态之间转化时存在Forward Delay? A. listening learning B. Learning Forwarding C. Disabled Blocking D. Blocking Listening E. Forwarding disabled",
+          "answer": "AB",
+          "id": 118
+        },
+        {
+          "topic": "0107周测",
+          "content": "DHCP Relay 又称为 DHCP 中继，下列关于 DHCP Relay 的说法正确的是 A. DHCP Relay 一定是一台交换机或者路由器。 B. DHCP Relay 设备可以是一台主机。 C. DHCP Relay 不改变报文内容，报文原样转发。 D. DHCP 协议多采用广播报文，如果出现多个子网则无法穿越，所以需要 DHCP Relay 设备。",
+          "answer": "BD",
+          "id": 105
+        },
+        {
+          "topic": "IP",
+          "content": "在 TCP/IP 模型中，IP 协议工作在哪个层次？\n    A应用层 B传输层 C网络层 D数据链路层",
+          "answer": "C网络层",
+          "id": 1
+        },
+        {
+          "topic": "基础",
+          "content": "以下哪些属于 OSI 七层模型中的应用层协议？\n    A .HTTP  B .FTP  C .TCP  D .DNS",
+          "answer": "A .HTTP  B .FTP D .DNS",
+          "id": 16
+        },
+        {
+          "topic": "每日问答",
+          "content": "dhcp中继作用？",
+          "answer": "解决 DHCP 客户端与 DHCP 服务器不在同一广播域的问题",
+          "id": 54
+        },
+        {
+          "topic": "每日问答",
+          "content": "dhcp地址池种类？",
+          "answer": "接口地址池\n全局地址池",
+          "id": 53
+        },
+        {
+          "topic": "0107周测",
+          "content": "在存在冗余链路的二层网络中，可以使用下列哪种协议避免出现环路?() A. Eth-Trunk B. ARP C. STP D. VRRP",
+          "answer": "AC",
+          "id": 113
+        },
+        {
+          "topic": "0107周测",
+          "content": "在运行RSTP的网络中有一些运行STP的设备，当RSTP交换机发现拓扑结构发生变化时，通知STP交换机拓扑发生变化的方法是？ A. 使用RSTP协议的拓扑改变标志BPDU B. 使用RSTP协议的拓扑改变确认标志BPDU C. 使用STP协议的拓扑改变确认标志BPDU D. 使用STP协议的拓扑改变通知BPDU",
+          "answer": "D",
+          "id": 101
+        },
+        {
+          "topic": "0116周测",
+          "content": "OSPF协议使用哪种报文向邻居发送LSA？ A. LSAB. LSRC. LSACKD. LSU",
+          "answer": "D",
+          "id": 69
+        },
+        {
+          "topic": "每日问答",
+          "content": "dhcp协议？",
+          "answer": "动态主机配置<分配协议>\n分配：TCP/IP信息：IP，掩码，dns，gW..·",
+          "id": 49
+        },
+        {
+          "topic": "0116周测",
+          "content": "某台路由器运行OSPF，输出相关LSDB信息，下列说法正确的是？ A. 该LSA的类型为AS-external-LSAB. 该LSA描述的目的网络为10.0.23.0/24C. 本台设备是ABRD. 图中的LSA是本路由器生成的",
+          "answer": "B",
+          "id": 70
+        },
+        {
+          "topic": "0116周测",
+          "content": "管理员在某台路由器上配置OSPF，但该路由器上未配置loopback接口，则关于Router ID的描述正确的是？ A. 该路由器物理接口的最大IP地址将会成为Router IDB. 该路由器管理接口的IP地址将会成为Router IDC. 该路由器物理接口的最小IP地址将会成为Router IDD. 该路由器的优先级将会成为Router ID",
+          "answer": "A",
+          "id": 56
+        },
+        {
+          "topic": "0107周测",
+          "content": "交换网络中STP协议的桥ID如下，拥有下列哪个桥ID的交换机会成为根桥？() A. 32768 00-01-02-03-04-CC B. 32768 00-01-02-03-04-BB C. 32768 00-01-02-03-04-AA D. 4096 00-01-02-03-04-DD",
+          "answer": "D",
+          "id": 99
+        },
+        {
+          "topic": "每日问答",
+          "content": "交换机如何防止冲突？",
+          "answer": "背板矩阵",
+          "id": 28
+        },
+        {
+          "topic": "0116周测",
+          "content": "以下关于OSPF协议报文说法错误的是？ A. OSPF所有报文头部都携带了Router-ID字段B. OSPF所有报文的头部格式相同C. OSPF报文采用UDP报文封装，并且端口号是89D. OSPF协议使用五种报文完成路由信息的传递",
+          "answer": "C",
+          "id": 82
+        },
+        {
+          "topic": "每日问答",
+          "content": "默认路由8个0的含义",
+          "answer": "前4个0：任意网段\n后4个0：任意匹配",
+          "id": 41
+        },
+        {
+          "topic": "每日问答",
+          "content": "默认路由应用场景？",
+          "answer": "末节网络",
+          "id": 40
+        },
+        {
+          "topic": "基础",
+          "content": "华为交换机的 Trunk 端口默认允许通过的 VLAN 是\n    A.仅 VLAN 1  B所有 VLAN  C未配置  D自定义 VLAN",
+          "answer": "A.仅 VLAN 1",
+          "id": 12
+        },
+        {
+          "topic": "每日问答",
+          "content": "csma/cd工作原理：",
+          "answer": "边发边听；发送时，监听信道是否占用，如果占用立刻停止；\n 等待一个随机时间，再次尝试。",
+          "id": 27
+        },
+        {
+          "topic": "0116周测",
+          "content": "一台VRRP虚拟路由器只能拥有一个虚拟IP地址。（判断题） A. 错误B. 正确",
+          "answer": "A",
+          "id": 57
+        },
+        {
+          "topic": "0107周测",
+          "content": "华为交换机运行STP时，缺省情况下交换机的优先级为？ A. 8192 B. 4096 C. 32768 D. 16384",
+          "answer": "C",
+          "id": 95
+        },
+        {
+          "topic": "0107周测",
+          "content": "STP下游设备通知上游设备发生拓扑变化时发送的报文是？ A. 配置 BPDU B. TC报文 C. TCA报文 D. TCN BPDU",
+          "answer": "D",
+          "id": 116
+        },
+        {
+          "topic": "基础",
+          "content": "路由器的主要功能是在不同网络之间转发数据包，同时可以隔离广播域。\n    A正确  B错误",
+          "answer": "A正确",
+          "id": 17
+        },
+        {
+          "topic": "每日问答",
+          "content": "ARP是什么？作用？工作原理？",
+          "answer": "ARP:地址解析协议\n作用：\n    已知目的IP地址，获取目的mac地址\n\n工作原理：\n    1.PC查看自己的arp缓存表 arp -a  删除：arp -d\n    2.用封装，单播发送\n    3.封装帧头广播，帧内 ARP请求：发送方ip mac  目的方：ip mac0000..\n    4.交换机泛洪\n    5.目的方 接受arp请求，解封装，保存对方的mac/ip\n    6.单播回应arp请求\n    7.交换机学习mac地址，单播发送",
+          "id": 30
+        },
+        {
+          "topic": "0116周测",
+          "content": "某位网络运维工程师在排查OSPF故障时输出相关信息，据此判断哪种原因导致邻接关系无法正常建立？ A. 认证密码不一致B. 接口的IP地址掩码不一致C. Hello报文发送间隔不一致D. 区域类型不一致",
+          "answer": "B",
+          "id": 66
+        },
+        {
+          "topic": "0116周测",
+          "content": "请问配置VRRP抢占时延的命令是以下哪一项？ A. vrrp vrid 1 timer delay 20B. vrrp vrid 1 preempt-timer 20C. vrrp vrid 1 preempt-delay20D. vrrp vrid 1 preempt-mode timer delay 20",
+          "answer": "D",
+          "id": 60
+        },
+        {
+          "topic": "0107周测",
+          "content": "下列关于链路聚合说法正确的有?() A. Eth-Trunk接口不能嵌套 B. 两台设备对接时需要保证两端设备上链路聚合的模式一致 C. GE电接口和GE光接口不能加入同一个Eth-Trunk接口 D. GE接口和FE接不能加入同一个Eth-Trunk接口",
+          "answer": "ABD",
+          "id": 110
+        },
+        {
+          "topic": "0107周测",
+          "content": "在下列种情况下，运行RSTP协议的交换机会产生TC置位的配置BPDU? A. Backup端口down B. 边缘端口迁移到Forwarding状态 C. 边缘端口迁移到Discarding状态 D. 一个非边缘端口迁移到Forwarding状态",
+          "answer": "D",
+          "id": 94
+        },
+        {
+          "topic": "0116周测",
+          "content": "路由器R1路由表输出相关信息，下列说法正确的是？ A. 路由器会转发目的网络为12.0.0.0/8的数据包B. 目的网络为11.0.0.0/8的数据包将从路由器的GigabitEthernet0/0/0接口转发C. 路由器会丢弃目的网络为11.0.0.0/8的数据包D. 目的网络为12.0.0.0/8的数据包将从路由器的Ethernet0/0/0接口转发",
+          "answer": "AB",
+          "id": 77
+        },
+        {
+          "topic": "0107周测",
+          "content": "DHCP Server 即 DHCP 服务器，负责客户端 IP 地址的分配，在配置 DHCP Server 时，需要包括以下哪些步骤 A. 配置 DHCP 的 option 82 选项 B. 采用端口地址池的 DHCP 服务器模式时，配置端口地址池 C. 采用全局地址池的 DHCP 服务器模式时，配置全局地址池 D. 全局使能 DHCP 功能",
+          "answer": "BCD",
+          "id": 103
+        },
+        {
+          "topic": "每日问答",
+          "content": "dhcp中继为什么能解决DHCP分发问题？",
+          "answer": "dhcp中的discover包为广播发送，无法到达服务器。",
+          "id": 55
+        },
+        {
+          "topic": "每日问答",
+          "content": "交换机工作原理？",
+          "answer": "-学习\n  学习源端口mac地址，记录mac地址表中\n-泛洪\n 1.未知单播帧；2.广播帧\n-更新\n 300S，mac地址表和接口mac地址不一致则立即更新\n-丢弃\n 相信自己",
+          "id": 24
+        },
+        {
+          "topic": "0116周测",
+          "content": "下面哪类LSA可以携带外部路由的tag标签信息？ A. LSA4B. LSA3C. LSA2D. LSA5",
+          "answer": "D",
+          "id": 75
+        },
+        {
+          "topic": "IP",
+          "content": "ICMP 协议中，用于测试目的主机可达性的报文类型是\n    A回声请求和回声应答  B超时  C目标不可达  D重定向",
+          "answer": "A回声请求和回声应答",
+          "id": 5
+        },
+        {
+          "topic": "基础",
+          "content": "VLAN 的主要作用不包括\n    A隔离广播域  B提高网络安全性  C增加可用 IP 地址数量  D提升网络管理效率",
+          "answer": "C增加可用 IP 地址数量",
+          "id": 11
+        },
+        {
+          "topic": "0116周测",
+          "content": "下面关于OSPF报文描述，不正确的是？ A. 如果当前DR故障，当前BDR自动成为新的DR，网络中重新选举BDRB. Router Priority一样大，Router ID大者选举优先级更高C. Router Priority大的选举优先级更高D. 当OSPF网络中有新的具有最大Router Priority路由器加入时，则该新的路由会抢占原来的DR",
+          "answer": "ABC",
+          "id": 68
+        },
+        {
+          "topic": "0107周测",
+          "content": "在DHCP运行过程中，会交互多种报文类型，那么下列哪些报文不是从客户端发送服务器的？ A. DHCP NAK B. DHCP REQUEST C. DHCP DISCOVER D. DHCP RELEASE",
+          "answer": "A",
+          "id": 102
+        },
+        {
+          "topic": "0116周测",
+          "content": "下面关于OSPF的特殊区域，描述错误的是？ A. Stub Area与Totally Stub区域的不同在于Stub区域允许区域间细化路由信息B. Totally Stub Area允许ABR发布缺省的三类LSA，不接受五类LSA和细化三类LSAC. Totally Stub区域与NSSA区域的不同在于Totally Stub区域不接受域间路由信息D. NSSA Area和Stub区域的不同在于该区域允许自治系统外部路由的引入，由ABR发布LSA7通告给本区域",
+          "answer": "D",
+          "id": 67
+        },
+        {
+          "topic": "0116周测",
+          "content": "在三层交换机上创建了VLAN 10，并在该VLAN的虚拟接口下配置了IP地址。当使用命令display ip interface brief查看接口状态时，发现VLANIF 10接口处于Down状态，则应该通过怎样的操作来使得VLANIF 10接口恢复正常？ A. 将一个状态必须为Up的物理接口划进VLAN 10B. 在VLANIF 10接口下使用命令undo shutdownC. 将任意物理接口划进VLAN 10D. 将一个状态必须为Up且必须为Trunk类型的接口划进VLAN 10",
+          "answer": "A",
+          "id": 76
+        },
+        {
+          "topic": "每日问答",
+          "content": "网络地址算法？",
+          "answer": "将IP地址与子网掩码做逻辑上\"与\"运算",
+          "id": 34
+        },
+        {
+          "topic": "0116周测",
+          "content": "管理员发现两台路由器在建立OSPF邻居时，停留在2-WAY状态，则下面描述正确的是？ A. 路由器配置了错误的Router IDB. 这两台路由器是广播型网络中的DR Other路由器C. 路由器配置了相同的进程IDD. 路由器配置了相同的区域ID",
+          "answer": "B",
+          "id": 65
+        },
+        {
+          "topic": "基础",
+          "content": "在 OSI 七层模型中，负责将数据分割成帧的是哪一层？\n    A .物理层  B .数据链路层   C .网络层  D .传输层",
+          "answer": "B .数据链路层",
+          "id": 20
+        },
+        {
+          "topic": "0116周测",
+          "content": "下面关于OSPF邻居关系和邻接关系描述，正确的是？ A. 邻接关系由OSPF的DD报文维护B. OSPF路由器在交换Hello报文之前必须建立邻接关系C. 并非所有的邻居关系都可以成为邻接关系D. 邻居关系是从邻接关系中选出的、为了交换路由信息而形成的关系",
+          "answer": "C",
+          "id": 73
+        },
+        {
+          "topic": "每日问答",
+          "content": "应用层常用协议<5个>",
+          "answer": "http；https；dhcp；ftp；dns；snmp；smtp",
+          "id": 29
+        },
+        {
+          "topic": "0107周测",
+          "content": "下列选项中，关于静态LACP模式描述错误的是: A. 如果使能了抢占，则高优先级的备份接口将在活动接口故障后延时一定时间成为活动接口;如果未使能抢占，故障的接口不能自动成为活动接口。 B. 在静态LACP模式中，转发数据的接口称为活动接口，而不转发数据的接口称为非活动接口。只有活动接口出现故障时，备份的接口才可以由非活动接口转变为活动接口。 C. 当需要在两个直连设备间提供一个较大的链路带宽而对端设备又不支持LACP协议时，可以选择使用手工负载分担模式。 D. 在静态LACP模式时，接口LACP优先级值越大，优先级越高，越容易选为活动端口。",
+          "answer": "D",
+          "id": 106
+        },
+        {
+          "topic": "0107周测",
+          "content": "DHCP DISCOER报文的目的IP地址为? () A. 224.0.0.1 B. 255.255.255.255 C. 224.0.0.2 D. 127.0.0.1",
+          "answer": "B",
+          "id": 112
+        },
+        {
+          "topic": "0116周测",
+          "content": "管理员要在路由器的GO/0/0接口上配IP地址，那么使用下面哪个地址才是正确的？ A. 192.168.10.112/30B. 127.3.1.4/28C. 237.6.1.2/24D. 145.4.2.55/26",
+          "answer": "D",
+          "id": 72
+        },
+        {
+          "topic": "每日问答",
+          "content": "广播地址算法？",
+          "answer": "IP地址的主机部分全部变成\"1\"",
+          "id": 35
+        },
+        {
+          "topic": "基础",
+          "content": "在 TCP 的三次握手过程中，客户端发送的第二个报文的标志位是\n    A .SYN  B .ACK  C .SYN+ACK  D .FIN",
+          "answer": "B .ACK",
+          "id": 18
+        },
+        {
+          "topic": "0116周测",
+          "content": "OSPF协议基于以下哪种协议？ A. HTTPB. TCPC. IPD. UDP",
+          "answer": "C",
+          "id": 80
+        },
+        {
+          "topic": "每日问答",
+          "content": "OSI参考模型？",
+          "answer": "物数网传会表应",
+          "id": 44
+        },
+        {
+          "topic": "基础",
+          "content": "以下哪个协议是用于动态获取 IP 地址的？\n    A .ARP  B .DHCP  C .ICMP  D .DNS",
+          "answer": "B .DHCP",
+          "id": 19
+        },
+        {
+          "topic": "0107周测",
+          "content": "在RSTP标准中，为了提高收敛速度，可以将交换机直接与终端相连的端口定义为（） A. 快速端口 B. 边缘端口 C. 根端口 D. 备份端口",
+          "answer": "B",
+          "id": 98
+        },
+        {
+          "topic": "0116周测",
+          "content": "关于OSPF协议DR的说法正确的是？ A. DR的选举是抢占式的B. Router ID值越大越优先被选举为DRC. DR不一定是网络中优先级最高的设备D. 一个接口优先级为0，那么该接口不可能为DR",
+          "answer": "CD",
+          "id": 81
+        },
+        {
+          "topic": "0107周测",
+          "content": "网络管理员发现交换机的某个端口已经学习到MAC地址;但是却不能转发数据帧，此端口处于以下哪种工作状态？ A. Learning B. Blocking C. Disabled D. Listening",
+          "answer": "A",
+          "id": 115
+        },
+        {
+          "topic": "0116周测",
+          "content": "下面关于OSPF协议，哪个描述是正确的？ A. 第四类LSA用于描述如何到达ASBR，并包含路由和拓扑信息B. 虚连接是属于骨干区域AREA 0的一条虚拟链路C. 当一台路由器收到一条NETWORK-Summary-LSA后，该路由器运行SPF算法D. NETWORK-LSA用于描述广播型网段和NBMA网段的链路状态信息",
+          "answer": "BCD",
+          "id": 83
+        },
+        {
+          "topic": "每日问答",
+          "content": "三次握手过程？",
+          "answer": "第一次握手，哪些参数置位SYN<连接请求>\n第二次握手，哪些参数置位SYN<连接请求>，ACK<回应第一次连接请求>\n第三次握手，哪些参数置位ACK<回应第二次连接请求>",
+          "id": 45
+        },
+        {
+          "topic": "0116周测",
+          "content": "DHCP服务器分配给客户端的动态IP地址通常有一定的租借期限，那么关于租借期限的描述错误的是？ A. 重绑定定时器为总租期的87.5%B. 租期更新定时器为总租期的50%，当\"租期更新定时器\"到期时，DHCP客户端必须进行IP地址的更新C. 在租借期限内，如果客户端收到DHCP NAK报文客户端就会立即停止使用此IP地址，并返回到初始化状态，重新申请新的IP地址D. 若“重绑定定时器”到期但客户端还没有收到服务器的响应则会一直发送DHCP REQUEST报文给之前分配过IP地址的DHCP服务器，直到总租期到期",
+          "answer": "BD",
+          "id": 90
+        },
+        {
+          "topic": "0116周测",
+          "content": "下列关于VRRP的描述，正确的是？ A. VRRP根据优先级来确定虚拟路由器中每台路由器的地位B. 如果Backup路由器工作在非抢占模式下，则只要Master路由器没有出现故障，Backup路由器即使随后被配置更高的优先级也不会成为Master路由器C. 如果已经存在Master，Backup也会进行抢占D. 当两台优先级相同的路由器同时竞争Master时，比较接口IP地址大小，接口地址大者当选为Master",
+          "answer": "ABD",
+          "id": 89
+        },
+        {
+          "topic": "111",
+          "content": "222",
+          "answer": "222",
+          "id": 121
+        },
+        {
+          "topic": "231",
+          "content": "3131",
+          "answer": "1231",
+          "id": 122
+        },
+        {
+          "topic": "111",
+          "content": "11",
+          "answer": "222",
+          "id": 123
+        },
+        {
+          "topic": "111",
+          "content": "222",
+          "answer": "333",
+          "id": 124
+        },
+        {
+          "topic": "2223123",
+          "content": "12312",
+          "answer": "21321",
+          "id": 125
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "123",
+      "questions": [
+        {
+          "topic": "111",
+          "content": "111",
+          "answer": "111",
+          "id": 119
+        },
+        {
+          "topic": "222",
+          "content": "222",
+          "answer": "222",
+          "id": 120
+        },
+        {
+          "topic": "123131",
+          "content": "12312",
+          "answer": "213312",
+          "id": 126
+        },
+        {
+          "topic": "123131",
+          "content": "2131",
+          "answer": "3131",
+          "id": 127
+        },
+        {
+          "topic": "11231",
+          "content": "2313",
+          "answer": "321312",
+          "id": 128
+        },
+        {
+          "topic": "11231",
+          "content": "321312",
+          "answer": "12312",
+          "id": 129
+        }
+      ]
+    }
+  ]
+}
